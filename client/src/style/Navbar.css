@@ -1,0 +1,39 @@
+.Nav-Section{
+    width:100vw;
+    height:10vh;
+    background-color:#fff;
+    display:flex;
+    box-shadow: 0px 0px 10px #838383;
+    position:absolute;
+    top:90vh;
+    z-index:3;
+}
+
+.Nav-ul{
+    width:33.3vw;
+    display:flex;
+    justify-content:center;
+}
+
+.container{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width:10vw;
+    padding:4vh 0vw;
+}
+
+.container:hover{
+    background-color:rgb(236, 236, 236);
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    color:#747474;
+}

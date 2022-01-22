@@ -1,0 +1,84 @@
+.navigation{
+    height:9vh;
+    width:100vw;
+    background-color:#4ba147;
+    display: flex;
+}
+.login-link{
+    color: white;
+    padding: 1rem;
+
+}
+
+.navigation h2{
+    color:white;
+}
+
+
+/* signup area */
+
+.signup-area{
+    height:80.2vh;
+    width:100vw;
+}
+
+.registerForm{
+    display:flex;
+    flex-direction: column;
+}
+
+.formLabel{
+    margin-right:5px;
+}
+
+.formGroup{
+    width:90vw;
+    height:6vh;
+    margin:3vh 2vw;
+    box-shadow: 0px 0px 5px #838383;
+}
+
+.formGroup input{
+    border:0px;
+    outline: none;
+    width:90%;
+    height:4vh;
+}
+
+.submit{
+    margin:1vh auto;
+    width:15vw;
+    height:6vh;
+}
+
+.submitButton{
+    width:15vw;
+    height:6vh;
+    background-color:#4ba147;
+    color:white;
+    border:0px;
+    outline:none;
+    box-shadow: 0px 0px 5px #838383;
+}
+
+.submitButton:hover{
+    cursor:pointer;
+}
+
+/* Media Query */
+
+@media only screen and (max-width:400px){
+    .formGroup input{
+        width:70%;
+    }
+
+    .submit{
+        width:20vw;
+        height:7vh;
+    }   
+    
+    .submitButton{
+        width:20vw;
+        height:7vh;
+    }
+}

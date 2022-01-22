@@ -1,0 +1,91 @@
+.navigation{
+    height:9vh;
+    width:100vw;
+    background-color:#4ba147;
+    display: flex;
+}
+.signup-link{
+    color: white;
+    padding: 1rem;
+
+}
+
+.navigation h2{
+    color:white;
+}
+
+/* Signup area */
+
+.loginArea{
+    height:77vh;
+    width:97vw;
+}
+
+.formGroup-login{
+    width:90vw;
+    height:6vh;
+    margin:3vh 2vw;
+    box-shadow: 0px 0px 5px #838383;
+}
+.formLabel-input{
+    margin-right:5px;
+}
+
+.formGroup-login input{
+    border:0px;
+    outline: none;
+    width:90%;
+    height:4vh;
+}
+
+.register-forgot{
+    margin:4vh auto;
+    width:25vw;
+    height:6vh;
+    display:flex;
+}
+.reg-pass{
+    margin:0vh 2vw;
+    width:9vw;
+    height:4vh;
+    box-shadow: 0px 0px 5px #838383;
+    display:flex;
+    text-align:center;
+
+}
+
+.reg-pass-2{
+    margin:0vh 1.5vw;
+    width:12vw;
+    height:4vh;
+    box-shadow: 0px 0px 5px #838383;
+    display:flex;text-align:center;
+
+}
+.reg-pass-btn{
+    width:9vw;
+    height:4vh;
+    text-decoration: none;
+    color:black;
+    font-size:15px;
+    padding:0.5rem;
+}
+.reg-pass-btn:hover{
+    cursor:pointer;
+}
+.reg-pass-btn-2{
+    width:12vw;
+    height:4vh;
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+    padding:0.5rem;
+}
+.reg-pass-btn-2:hover{
+    cursor:pointer;
+}
+
+
+/* Medi Query */
+
+/* Media query for login is applied in App.CSS file */

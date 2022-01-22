@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    top:0px;
+}
+
+.mine-sec{
+    height:87vh;
+    width:97vw;
+}
+.mine-header{
+    background-color: #4ba147;
+    height:9vh;
+    width:100vw;
+    display: flex;
+    box-shadow: 0px 5px 5px #838383;
+}
+.more-btn{
+    position: absolute;
+    top:3vh;
+    left:95vw;
+    z-index:4;
+    color:white;
+    border-radius: 18px;
+}
+.more-btn:hover{
+    cursor:pointer;
+    background-color: rgba(214, 214, 214, 0.658);
+}
+.more-btn-content{
+    background-color: white;
+    width:14vw;
+    height:20vh;
+    position:absolute;
+    top:4.6vh;
+    right:-0.8vw;
+    z-index:5;
+    box-shadow: 0px 5px 5px #838383;
+}
+
+.more-btn-content ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-btn-content ul li{
+    list-style: none;
+    margin:.8vw 0vh;
+}
+
+.more-btn-content ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.more-btn-content ul li:hover{
+    background-color:#eeeeee;
+}
+
+.mine-header h2{
+    color:white;
+    display:flex;
+    padding-top:2vh;
+    padding-left:2vh;
+}
+.user-info-area{
+    width:100vw;
+    height:22vh;
+    display:flex;
+}
+
+.user-content{
+    width:25vw;
+    height:20vh;
+    margin:5vh 1.5vw;
+}
+
+.data{
+    display: flex;
+    margin-bottom:1vh;
+}
+
+.user-data{
+    color:#636363;
+    padding-left:.4vw;
+}
+
+/* Menu Section */
+.menuSection{
+    height:60vh;
+    width:100vw;
+    overflow:scroll;
+    position: relative;
+    z-index: 2;
+}
+
+.menu-class{
+    width:97vw;
+    height:6vh;
+}
+
+.menu-class:hover{
+    cursor:pointer;
+    background-color:#eeeeee;
+}
+.menu-info{
+    display: flex;
+    width:97vw;
+    padding-top: 1.5vh;
+}
+.icon-sec{
+    width:1.5vw;
+    margin-right:2vw;
+    margin-left: 1vw;
+}
+.icon-info{
+    width:94vw;
+    color:#636363;
+    display: flex;
+}
+
+.menu-elements{
+    width:97vw;
+    height:8vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-elements li{
+    list-style: none;
+    margin-left:3.5vw;
+    margin-bottom:.8vh;
+    
+}
+
+.menu-elements li a{
+    text-decoration: none;
+    color:#636363;
+}
